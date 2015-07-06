@@ -1,7 +1,7 @@
 # node-test-api
 
 ## Get a profile
-GET /profile/{id}
+GET /profile/{id}?detail=1
 
 ## Add a profile
 POST /profile/{profileGroup}
@@ -13,7 +13,7 @@ POST /profile/{profileGroup}
 ```
 
 ## Get next profile
-GET /profile/{profileGroup}/next
+GET /profile/{profileGroup}/next?token=1234
 
 ## Get all profiles
 GET /profile/{profileGroup}/all
