@@ -13,7 +13,9 @@ POST /profile/{profileGroup}
 ```
 
 ## Get next profile
-GET /profile/{profileGroup}/next?token=1234
+GET /profile/{profileGroup}/next
+
+If the profile group has a token enabled, you need to pass the token via a x-auth header.
 
 ## Get all profiles
 GET /profile/{profileGroup}/all
@@ -29,6 +31,8 @@ POST /profile/{profileGroup}/defaults
   "flagForGroup": true
 }
 ```
+
+To enable token auth on an attempt to get a profile from the profile group, set "token": "<token value>".
 
 ## Get profile group defaults
 GET /profile/{profileGroup}/defaults
