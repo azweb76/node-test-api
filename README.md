@@ -32,7 +32,7 @@ POST /profile/{profileGroup}/defaults
 }
 ```
 
-To enable token auth on an attempt to get a profile from the profile group, set "token": "<token value>".
+To enable token auth on an attempt to get a profile from the profile group, set `"token": "<token value>"`.
 
 ## Get profile group defaults
 GET /profile/{profileGroup}/defaults
