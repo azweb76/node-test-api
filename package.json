@@ -8,7 +8,7 @@
     "bson": "^0.4.23",
     "express": "^4.12.3",
     "minimist": "^1.1.1",
-    "mongoose": "^3.8.25"
+    "mongoose": "4.5.5"
   },
   "bin": {
     "testapi": "./lib/cli.js"
